@@ -1,0 +1,14 @@
+[Unit]
+Description=Power Off
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/rohan/Documents/Power.py
+WorkingDirectory=/home/rohan/Documents
+Restart=on-failure
+User=rohan
+Group=rohan
+
+[Install]
+WantedBy=multi-user.target

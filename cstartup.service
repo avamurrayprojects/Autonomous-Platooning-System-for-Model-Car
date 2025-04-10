@@ -1,0 +1,15 @@
+[Unit]
+Description=Computer Vision
+After=network.target
+
+[Service]
+ExecStart=/home/rohan/Documents/ImageProcessing2003
+WorkingDirectory=/home/rohan/Documents
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=rohan
+Group=rohan
+
+[Install]
+WantedBy=multi-user.target
