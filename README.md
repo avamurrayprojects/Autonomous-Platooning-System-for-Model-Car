@@ -1,5 +1,5 @@
 # Model Vehicle Platooning System.  
-This repository contains the code for a model car platoonig system developed as part of an academic project. The system enables a follower car to autonomously track and follow a lead car using computer vision and distance sensing. Key features include ArUco marker detection, PID-based speed and steering control, autonomous obstacle avoidance and searching behaviour when visual tracking is lost.
+This repository contains the code for a model car platooning system developed as part of an academic project. The system enables a follower car to autonomously track and follow a lead car using computer vision and distance sensing. Key features include ArUco marker detection, PID-based speed and steering control, autonomous obstacle avoidance and searching behaviour when visual tracking is lost.
 
 ## System Overview  
 The system is split across two Raspberry Pi units:  
